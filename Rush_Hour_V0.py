@@ -157,4 +157,4 @@ while not a.check():
     counter += 1
     print(counter)
     a.select()
-print("You Won, do you want to play again?")
+print("Du hast gewonnen!")
