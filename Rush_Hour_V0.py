@@ -23,7 +23,7 @@ class Rush_Hour():
                     counter += 1
                     if board2[int(coordinate[0]), int(coordinate[1])] != 0:
                         raise Exception(
-                            "\nEine Koordinate Wurde Doppelt Eingegeben")
+                            "\nEine Koordinate wurde doppelt eingegeben")
                     else:
                         board2[int(coordinate[0]),
                                int(coordinate[1])] = index+1
